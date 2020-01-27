@@ -1,0 +1,62 @@
+{
+    "projects": [
+        {
+            "id": "0",          
+            "project_name": "Random Quote Generator",
+            "description": "Click the button to display various random inspiring quotes!",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": " ",
+            "github_link": "https://github.com/lucipeterson/random_quote_generator",
+            "image_urls": []
+        },{
+            "id": "1",          
+            "project_name": "Paginated List",
+            "description": "Use this paginated list to display your data in an easy, readable format!",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": " ",
+            "github_link": "https://github.com/lucipeterson/paginated-list",
+            "image_urls": []
+        },{
+            "id": "2",          
+            "project_name": "Interactive Form",
+            "description": "Use this form to allow people to sign up for your next code conf, includes validation so improperly formatted data cannot be input!",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+            "live_link": " ",
+            "github_link": "https://github.com/lucipeterson/interactive-form",
+            "image_urls": []
+        },{
+            "id": "3",          
+            "project_name": "Phrase Hunter",
+            "description": "A hangman-style phrase-guessing game!",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": " ",
+            "github_link": "https://github.com/lucipeterson/game-show-app",
+            "image_urls": []
+        },{
+            "id": "4",          
+            "project_name": "Employee Directory",
+            "description": "Use this directory app to list all of your employees and display their contact info!",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": " ",
+            "github_link": "https://github.com/lucipeterson/employee-directory",
+            "image_urls": []
+        },
+        {
+            "id": "5",          
+            "project_name": "Multi-Operation Calculator",
+            "description": "Use this calculator to perform several operations on two numbers at once!",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": " ",
+            "github_link": "https://github.com/lucipeterson/js-if-then",
+            "image_urls": []
+        },{
+            "id": "6",          
+            "project_name": "Space Chaos",
+            "description": "Dodge space objects in your rocketship!",
+            "technologies": ["Python", "PyGame"],
+            "live_link": " ",
+            "github_link": "https://github.com/lucipeterson/Space-Chaos",
+            "image_urls": []
+        }
+    ]
+}
