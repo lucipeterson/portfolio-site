@@ -5,7 +5,7 @@
             "project_name": "Random Quote Generator",
             "description": "Click the button to display various random inspiring quotes!",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": " ",
+            "live_link": "lucipeterson.github.io/random_quote_generator",
             "github_link": "https://github.com/lucipeterson/random_quote_generator",
             "image_urls": []
         },{
@@ -13,7 +13,7 @@
             "project_name": "Paginated List",
             "description": "Use this paginated list to display your data in an easy, readable format!",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": " ",
+            "live_link": "lucipeterson.github.io/paginated-list",
             "github_link": "https://github.com/lucipeterson/paginated-list",
             "image_urls": []
         },{
@@ -21,7 +21,7 @@
             "project_name": "Interactive Form",
             "description": "Use this form to allow people to sign up for your next code conf, includes validation so improperly formatted data cannot be input!",
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
-            "live_link": " ",
+            "live_link": "lucipeterson.github.io/interactive-form",
             "github_link": "https://github.com/lucipeterson/interactive-form",
             "image_urls": []
         },{
@@ -29,7 +29,7 @@
             "project_name": "Phrase Hunter",
             "description": "A hangman-style phrase-guessing game!",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": " ",
+            "live_link": "lucipeterson.github.io/game-show-app",
             "github_link": "https://github.com/lucipeterson/game-show-app",
             "image_urls": []
         },{
@@ -37,7 +37,7 @@
             "project_name": "Employee Directory",
             "description": "Use this directory app to list all of your employees and display their contact info!",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": " ",
+            "live_link": "lucipeterson.github.io/employee-directory",
             "github_link": "https://github.com/lucipeterson/employee-directory",
             "image_urls": []
         },
@@ -46,7 +46,7 @@
             "project_name": "Multi-Operation Calculator",
             "description": "Use this calculator to perform several operations on two numbers at once!",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": " ",
+            "live_link": "lucipeterson.github.io/js-if-then",
             "github_link": "https://github.com/lucipeterson/js-if-then",
             "image_urls": []
         },{
