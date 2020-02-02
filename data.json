@@ -5,50 +5,50 @@
             "project_name": "Random Quote Generator",
             "description": "Click the button to display various random inspiring quotes!",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "lucipeterson.github.io/random_quote_generator",
+            "live_link": "https://lucipeterson.github.io/random_quote_generator",
             "github_link": "https://github.com/lucipeterson/random_quote_generator",
-            "image_urls": []
+            "image_urls": ["/static/random-quote-generator-screenshot.png", "/static/random-quote-generator-screenshot-02.png"]
         },{
             "id": "1",          
             "project_name": "Paginated List",
             "description": "Use this paginated list to display your data in an easy, readable format!",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "lucipeterson.github.io/paginated-list",
+            "live_link": "https://lucipeterson.github.io/paginated-list",
             "github_link": "https://github.com/lucipeterson/paginated-list",
-            "image_urls": []
+            "image_urls": ["/static/paginated-list-screenshot.png", "/static/paginated-list-screenshot-02.png"]
         },{
             "id": "2",          
             "project_name": "Interactive Form",
             "description": "Use this form to allow people to sign up for your next code conf, includes validation so improperly formatted data cannot be input!",
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
-            "live_link": "lucipeterson.github.io/interactive-form",
+            "live_link": "https://lucipeterson.github.io/interactive-form",
             "github_link": "https://github.com/lucipeterson/interactive-form",
-            "image_urls": []
+            "image_urls": ["/static/interactive-form-screenshot.png", "/static/interactive-form-screenshot-02.png"]
         },{
             "id": "3",          
             "project_name": "Phrase Hunter",
             "description": "A hangman-style phrase-guessing game!",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "lucipeterson.github.io/game-show-app",
+            "live_link": "https://lucipeterson.github.io/game-show-app",
             "github_link": "https://github.com/lucipeterson/game-show-app",
-            "image_urls": []
+            "image_urls": ["/static/game-show-app-screenshot.png", "/static/game-show-app-screenshot-02.png"]
         },{
             "id": "4",          
             "project_name": "Employee Directory",
             "description": "Use this directory app to list all of your employees and display their contact info!",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "lucipeterson.github.io/employee-directory",
+            "live_link": "https://lucipeterson.github.io/employee-directory",
             "github_link": "https://github.com/lucipeterson/employee-directory",
-            "image_urls": []
+            "image_urls": ["/static/employee-directory-screenshot.png", "/static/employee-directory-screenshot-02.png"]
         },
         {
             "id": "5",          
             "project_name": "Multi-Operation Calculator",
             "description": "Use this calculator to perform several operations on two numbers at once!",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "lucipeterson.github.io/js-if-then",
+            "live_link": "https://lucipeterson.github.io/js-if-then",
             "github_link": "https://github.com/lucipeterson/js-if-then",
-            "image_urls": []
+            "image_urls": ["/static/js-calc-screenshot.png", "/static/js-calc-screenshot-02.png"]
         },{
             "id": "6",          
             "project_name": "Space Chaos",
@@ -56,7 +56,7 @@
             "technologies": ["Python", "PyGame"],
             "live_link": " ",
             "github_link": "https://github.com/lucipeterson/Space-Chaos",
-            "image_urls": []
+            "image_urls": ["/static/space-chaos-screenshot.png", "/static/space-chaos-screenshot-02.png"]
         }
     ]
 }

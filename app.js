@@ -1,28 +1,33 @@
 //IMPORTS
 const express = require('express');
 const data = require('./data.json');
+const router = express.Router();
+const projectData = data.projects;
 
+//CONSTANTS
 const app = express();
 const port = 3000;
 
-//SET VIEW ENGINE
-app.set("view engine", "pug");
+console.log(data.projects);
+
+//SETTINGS
+app.set('view engine','pug');
 
 //ROUTE STATIC FILES
-app.use(express.static('public'));
+app.use('/static', express.static('public'));
+app.use('/static', express.static('images'));
 
-//ROUTE PAGES
+//ROUTE PAGE TEMPLATES
 app.get('/', function (req, res) {
-    res.locals = data.projects;
-    res.render('index');
+    res.render('index', { projects: projectData });
 });
 
 app.get('/about', function (req, res) {
   res.render('about')
 });
 
-app.get('/project', function (req, res) {
-    res.render('project')
+app.get('/project/:id', function (req, res) {
+    res.render('project', { projects: projectData[req.params.id] })
 });
 
 //HANDLE ERRORS
@@ -33,3 +38,7 @@ app.get('*', function(req, res, next) {
   });
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
+
+module.exports = router;
+module.exports = app;
+module.exports = data;
