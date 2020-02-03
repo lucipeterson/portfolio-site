@@ -1,14 +1,11 @@
 //IMPORTS
 const express = require('express');
 const data = require('./data.json');
-const router = express.Router();
 const projectData = data.projects;
 
 //CONSTANTS
 const app = express();
 const port = 3000;
-
-console.log(data.projects);
 
 //SETTINGS
 app.set('view engine','pug');
@@ -39,6 +36,5 @@ app.get('*', function(req, res, next) {
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
 
-module.exports = router;
 module.exports = app;
 module.exports = data;
