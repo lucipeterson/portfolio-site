@@ -23,7 +23,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
             "live_link": "https://lucipeterson.github.io/interactive-form",
             "github_link": "https://github.com/lucipeterson/interactive-form",
-            "image_urls": ["/static/interactive-form-screenshot.png", "/static/interactive-form-screenshot-02.png"]
+            "image_urls": ["/static/interactive-form-screenshot.png", "/static/interactive-form-screenshot-02.png", "/static/misc-interactive-form.png"]
         },{
             "id": "3",          
             "project_name": "Phrase Hunter",
@@ -31,7 +31,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://lucipeterson.github.io/game-show-app",
             "github_link": "https://github.com/lucipeterson/game-show-app",
-            "image_urls": ["/static/game-show-app-screenshot.png", "/static/game-show-app-screenshot-02.png"]
+            "image_urls": ["/static/game-show-app-screenshot.png", "/static/game-show-app-screenshot-02.png", "/static/misc-game-show.png"]
         },{
             "id": "4",          
             "project_name": "Employee Directory",
@@ -39,7 +39,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://lucipeterson.github.io/employee-directory",
             "github_link": "https://github.com/lucipeterson/employee-directory",
-            "image_urls": ["/static/employee-directory-screenshot.png", "/static/employee-directory-screenshot-02.png"]
+            "image_urls": ["/static/employee-directory-screenshot.png", "/static/employee-directory-screenshot-02.png", "/static/misc-employee-directory.png"]
         },
         {
             "id": "5",          

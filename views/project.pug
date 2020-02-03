@@ -22,10 +22,12 @@ block content
         //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href=projects.live_link) Live Demo
+        if projects.live_link.length > 1
+          a.button.expanded(href=projects.live_link) Live Demo
         a.button.expanded(href=projects.github_link) GitHub Repo
     
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
-    img.image(src='https://placehold.it/1200x550')
-    img.image(src='https://placehold.it/1200x550')
-    img.image(src='https://placehold.it/1200x550')
+    img.image(src=projects.image_urls[0])
+    img.image(src=projects.image_urls[1])
+    if projects.image_urls.length > 1
+      img.image(src=projects.image_urls[2])
