@@ -40,23 +40,6 @@
             "live_link": "https://lucipeterson.github.io/employee-directory",
             "github_link": "https://github.com/lucipeterson/employee-directory",
             "image_urls": ["/static/employee-directory-screenshot.png", "/static/employee-directory-screenshot-02.png", "/static/misc-employee-directory.png"]
-        },
-        {
-            "id": "5",          
-            "project_name": "Multi-Operation Calculator",
-            "description": "Use this calculator to perform several operations on two numbers at once!",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://lucipeterson.github.io/js-if-then",
-            "github_link": "https://github.com/lucipeterson/js-if-then",
-            "image_urls": ["/static/js-calc-screenshot.png", "/static/js-calc-screenshot-02.png"]
-        },{
-            "id": "6",          
-            "project_name": "Space Chaos",
-            "description": "Dodge space objects in your rocketship!",
-            "technologies": ["Python", "PyGame"],
-            "live_link": " ",
-            "github_link": "https://github.com/lucipeterson/Space-Chaos",
-            "image_urls": ["/static/space-chaos-screenshot.png", "/static/space-chaos-screenshot-02.png"]
         }
     ]
 }
