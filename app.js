@@ -24,7 +24,7 @@ app.get('/about', function (req, res) {
 });
 
 app.get('/project/:id', function (req, res) {
-    res.render('project', { projects: projectData[req.params.id] })
+  res.render('project', { projects: projectData[req.params.id] })
 });
 
 //HANDLE ERRORS
@@ -33,6 +33,11 @@ app.get('*', function(req, res, next) {
     err.statusCode = 404;
     next(err);
   });
+
+app.use((err, req, res, next) => {
+  res.locals.error = err;
+  res.render('error', err);
+});
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
 
