@@ -36,10 +36,9 @@ app.get('*', function(req, res, next) {
 
 app.use((err, req, res, next) => {
   res.locals.error = err;
+  res.status(err.status || 500);
   res.render('error', err);
 });
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
 
-module.exports = app;
-module.exports = data;
