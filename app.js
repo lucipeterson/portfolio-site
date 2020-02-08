@@ -37,6 +37,7 @@ app.get('*', function(req, res, next) {
 app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status || 500);
+  console.log(err.message);
   res.render('error', err);
 });
 
