@@ -5,7 +5,7 @@ const projectData = data.projects;
 
 //CONSTANTS
 const app = express();
-// const port = 3000;
+const port = process.env.port || 3000;
 
 //SETTINGS
 app.set('view engine','pug');
